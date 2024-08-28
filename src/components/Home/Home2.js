@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Angualar, React, Javascript and TypeScript. </b>
+                <b className="purple"> Angular, React, Javascript, TypeScript, Ionic, Capacitor and Cordova. </b>
               </i>
               <br />
               <br />
