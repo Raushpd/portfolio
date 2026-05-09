@@ -27,6 +27,11 @@ function ExperienceCards(props) {
                     <Card className="project-card-view flip-card-back-card">
                         <Card.Body>
                             <Card.Title>{props.title}</Card.Title>
+                            {props.duration && (
+                                <div style={{ fontSize: "0.85rem", color: "#ffd700", marginBottom: "0.5rem", fontWeight: "500" }}>
+                                    {props.duration}
+                                </div>
+                            )}
                             <Card.Text as="div" style={{ textAlign: "justify" }}>
                                 <ul style={{ paddingLeft: "1rem", margin: 0 }}>
                                     {visiblePoints.map((point, idx) => (

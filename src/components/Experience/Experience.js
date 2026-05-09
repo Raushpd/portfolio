@@ -24,6 +24,7 @@ function Experience() {
                         <ExperienceCard
                             imgPath={deloitteImg}
                             title="Deloitte"
+                            duration="Sept 2024 - Present"
                             description={[
                                 "Worked on a high-profile Deloitte project for Canada Post, enhancing core Shipping Systems and Mobile Web applications using Angular, TypeScript, and Java.",
                                 "Improved performance and user experience of mobile platforms, contributing to greater operational efficiency and customer satisfaction.",
@@ -42,6 +43,7 @@ function Experience() {
                         <ExperienceCard
                             title="Koach AI"
                             imgPath={koachImg}
+                            duration="August 2022 - July 2024"
                             description={[
                                 "Developed and launched a mobile app tailored for both B2B and B2C markets, significantly enhancing user experience and achieving over 5K+ downloads on Google Play Store and the Apple App Store.",
                                 "Reduced administrative tasks by 30% through the creation of a new admin website and enhanced the company's website visibility and accessibility by implementing effective SEO strategies.",
@@ -56,6 +58,7 @@ function Experience() {
                         <ExperienceCard
                             title="Skywinds Solutions"
                             imgPath={skywindsImg}
+                            duration="Feb 2022 – July 2022"
                             description={[
                                 "Build dashboards for various companies, streamlining data visualization and enhancing business decision-making.",
                                 " Utilized React Material components to design and implement a wide range of services, ensuring a responsive and intuitive user interface.",
@@ -70,6 +73,7 @@ function Experience() {
                         <ExperienceCard
                             title="Upjao.ai"
                             imgPath={upjaoImg}
+                            duration="Nov 2021 – Feb 2022"
                             description={[
                                 "Created an interactive map to display product data, integrating it with both the Client and Admin Portals.",
                                 "Leveraged Firebase to implement secure data storage and authentication mechanisms within the Upjao app, providing a robust framework for managing user data and ensuring high standards of security and reliability",
